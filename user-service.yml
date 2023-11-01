@@ -1,0 +1,13 @@
+spring:  
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/testdb
+    username: '{cipher}30c4ccc17ca92c62ff5038951e631626d1a28e7385c9f2e2a1a5d5f1471d4b01'
+    password: 
+    driver-class-name: org.h2.Driver
+    
+token:
+  expiration_time: 86400000
+  secret: my_token_native
+  
+gateway:
+  ip: 192.168.0.112
