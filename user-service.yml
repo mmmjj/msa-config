@@ -1,9 +1,9 @@
 spring:  
   datasource:
-    url: jdbc:h2:tcp://localhost/~/testdb
+    url: jdbc:h2:mem:testdb
     username: '{cipher}AQAUasqNt9Ij/pQRcG8ckwmg8RfJg2hqbMSyWDfcKzBVKwdKKiJFlTIdDSSqqEO6mUOn6kDtaP/T6fRNSj+ZGms/nKTeL0ZhDMQuvTScaZwEtUylxfrcfM4iyFKAooaNbWvOhFSXOjZUTT/ufKVz5BW23+QVCbBIKLWc07bKSnXXLET1jt4G9FM56y3d6iw8BF4JqVpNzMTwB9+jVp3Cc0a2xkN5ceRHobHuYOhq8LT3qBkqNaFjEUC66mjZq5d6pMQEcRmaqM58Yz7il+D5tYorqhphlcFMRA+u7fdlpHUIZ6Btq1UC342lrsTYQQO26eOZNGRnqZSNYkBqO/2CpP2vm+9CouMJ53CGE1yydBSnWnVE28dwOBroDBanvw1RPvA='
 #    username: '{cipher}30c4ccc17ca92c62ff5038951e631626d1a28e7385c9f2e2a1a5d5f1471d4b01'
-    password: 
+    password: 12345
     driver-class-name: org.h2.Driver
       
 gateway:
