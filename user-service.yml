@@ -7,7 +7,7 @@ spring:
     driver-class-name: org.h2.Driver
       
 gateway:
-  ip: 192.168.35.112
+  ip: 172.18.0.5
 
 
 order_service:
